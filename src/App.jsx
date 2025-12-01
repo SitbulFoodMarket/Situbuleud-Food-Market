@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { createClient } from '@supabase/supabase-js';
 
 // --- SUPABASE CONFIG (GANTI INI DENGAN DATA ANDA) ---
-const SUPABASE_URL = 'https://ltsskquetmcpxcnbsoah.supabase.co'; // Ganti dengan Project URL
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx0c3NrcXVldG1jcHhjbmJzb2FoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ1NTUxNjIsImV4cCI6MjA4MDEzMTE2Mn0.FjCAySw1l0ppUQVS7SuviAPAHnQAo_BbcaUV2ck7z6U'; // Ganti dengan Anon Key
+const SUPABASE_URL = 'https://gsyrlwgsnvxvmnzbfcwl.supabase.co'; // Ganti dengan Project URL
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdzeXJsd2dzbnZ4dm1uemJmY3dsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ1MjcxMzEsImV4cCI6MjA4MDEwMzEzMX0.dwAzX5WL9CoIJxUbhXzcmwXToq5zgHPoPv80j7RIbTg'; // Ganti dengan Anon Key
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // --- DEFINISI SVG ICON ---
